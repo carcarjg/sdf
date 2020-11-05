@@ -65,22 +65,6 @@
             Set the service's console (if it has one) on or off 
             </summary>
         </member>
-        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.GetServices">
-            <summary>
-            Gets a collection of Services supported on the device
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.Dispose">
-            <summary>
-            Disposes internally allocated resources
-            </summary>
-        </member>
-        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.Finalize">
-            <summary>
-            Finalizes the ServiceCollection instance
-            </summary>
-        </member>
         <member name="F:OpenNETCF.WindowsCE.Services.ServiceState.Stopped">
             <summary>
             The service is turned off. 
@@ -114,6 +98,22 @@
         <member name="F:OpenNETCF.WindowsCE.Services.ServiceState.Unknown">
             <summary>
             The state of the service is unknown. 
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.GetServices">
+            <summary>
+            Gets a collection of Services supported on the device
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.Dispose">
+            <summary>
+            Disposes internally allocated resources
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.Services.ServiceCollection.Finalize">
+            <summary>
+            Finalizes the ServiceCollection instance
             </summary>
         </member>
     </members>

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B8083ACA-3642-4F21-9C59-1C45699173EE}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -85,10 +85,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OpenNETCF.Testing\Support\OpenNETCF.Testing.Support.SmartDevice\OpenNETCF.Testing.Support.SmartDevice.csproj">
-      <Project>{4F8D951A-0583-41DB-AE4C-5C6054248A4E}</Project>
-      <Name>OpenNETCF.Testing.Support.SmartDevice</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OpenNETCF.Data\OpenNETCF.Data.csproj">
       <Project>{C889D4C5-C4AA-4F22-9EB7-3A7147592CAB}</Project>
       <Name>OpenNETCF.Data %28OpenNETCF.Data\OpenNETCF.Data%29</Name>

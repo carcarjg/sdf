@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{AD98D766-78C2-47CF-B67A-82AA366AD2F7}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -111,6 +111,7 @@
   <ItemGroup>
     <EmbeddedResource Include="OwnerDrawButton.resx">
       <DependentUpon>OwnerDrawButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
